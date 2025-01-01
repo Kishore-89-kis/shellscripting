@@ -1,6 +1,6 @@
 #!bin/bash 
-NUMBER1=$1
-nUMBER2=$2
+NUMBER1=100
+NUMBER2=200
 TIMESTAMP= $(SYSDATE)
 echo "script excuted at: $TIMESTAMP"
 SUM=$($NUMBER1+$NUMBER2)
